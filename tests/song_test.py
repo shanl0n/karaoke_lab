@@ -6,5 +6,9 @@ class TestSong(unittest.TestCase):
     def setUp(self):
         self.song = Song("Tom Petty", "Wont Back Down")
 
-def test_song_has_title(self):
+    def test_song_has_title(self):
         self.assertEqual("Wont Back Down", self.song.title)
+
+    def test_song_has_artist(self):
+        self.assertEqual("Tom Petty", self.song.artist)
+

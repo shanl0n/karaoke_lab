@@ -13,3 +13,6 @@ def check_out_guest(self, guest):
 def add_song(self, song):
     self.song.append(song)
 
+def number_of_guests(self):
+        return len(self.guests)
+
